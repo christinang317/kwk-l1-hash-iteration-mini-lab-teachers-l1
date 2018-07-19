@@ -18,7 +18,7 @@ def iterate_through_hash
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
   new_hash.each do |city, year|
     puts "The #{year} summer olympics took place in #{city}. "
-  end 
+  
 
 
 end
