@@ -19,9 +19,9 @@ def iterate_through_hash
   new_hash.each do |city, year|
     puts "The #{year} summer olympics took place in #{city}. "
   
-
-
+  end
 end
+  puts iterate_through_hash
 
 def iterate_through_keys
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
